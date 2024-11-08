@@ -1,38 +1,31 @@
-HomeHaven - The Personalized Furniture Shopping Experience
-HomeHaven is an interactive platform where users can explore, customize, and visualize furniture in 3D and AR, creating a truly personalized shopping experience.
+HomeHaven 🏠
+Welcome to HomeHaven – your personal furniture stylist! 🛋️✨
 
-🚀 Features
-Room Selection: Choose from Living Room, Bedroom, Dining, or Office.
-3D Customization & AR: Overlay 3D furniture in real-world environments via AR.
-Design Page: Experiment with furniture and view it using filters, themes, and AR.
-📂 Folder Structure
-plaintext
-Copy code
-HomeHaven/
-│
-├── src/
-│   ├── assets/                 # Images, 3D models for AR and customization
-│   ├── components/
-│   │   └── Customize/          # Main customization components
-│   └── pages/
-│       └── Design.js           # Design page with AR and customization functionalities
-│
-├── backend/
-│   └── data/
-│       └── furniture.json      # JSON data of furniture items
-│
-└── README.md
-🛠️ Getting Started
+Idea 💡
+Meet HomeHaven! It’s more than just a furniture store; it’s an interactive platform where you can customize and visualize your furniture choices in a way that feels truly personal. From 3D previews 🖼️ to AR overlays 🌐, HomeHaven helps you design a space that’s uniquely yours!
+
+With HomeHaven, you can:
+
+Select a Room Type: Browse furniture by room – Living Room, Bedroom, Dining Room, or Office – with a layout that suits each.
+Visualize in 3D & AR: Picture furniture in your own space with AR features that bring designs to life. Just a few clicks, and it’s like trying it out in your actual room!
+Customize to Perfection: Choose from filters and themes to see items that match your exact preferences. HomeHaven offers a personalized experience, so finding the right piece is easy and enjoyable.
+🌟 Features of v1.0.0
+Digital Room Inventory: Easily browse furniture by room category and apply filters like style, theme, and size.
+3D and AR Visualization: Preview furniture pieces in your space, using both 3D models and AR overlays.
+Tailored Recommendations: Get suggestions based on your preferences to build a cohesive style across all rooms.
+Design in Real Time: Experiment with different furniture layouts and combinations to find the best fit.
+Furniture of the Month: Discover our monthly favorites, based on trending styles and user picks.
+🚀 Getting Started
 Prerequisites
-Ensure that Node.js and npm are installed on your machine.
+Make sure Node.js and npm are installed.
 
 Installation
-Clone the repository:
+Clone the repo:
 
 bash
 Copy code
 git clone https://github.com/your-username/HomeHaven.git
-Navigate to the project directory:
+Navigate to the directory:
 
 bash
 Copy code
@@ -47,17 +40,9 @@ Run the application:
 bash
 Copy code
 npm start
-🖥️ Usage
-Launch the app by visiting http://localhost:3000 in your browser.
+🎉 Using HomeHaven
+Visit http://localhost:3000 in your browser to get started.
 Explore the Design Page:
-Access 3D furniture models and experiment with AR.
-Add and customize furniture to fit your room style and layout.
-Room and Furniture Selection:
-Choose room types and preview relevant furniture with filters, themes, and styles.
-⚠️ Note
-To use AR features, ensure:
-
-Your device and browser support WebXR.
-📜 License
-This project is open-source. Feel free to contribute or fork for personal use.
-
+Check out furniture in 3D or place items virtually using AR!
+Room & Furniture Selection:
+Choose a room and browse the latest collections tailored just for that space.
